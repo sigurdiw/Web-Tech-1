@@ -1,0 +1,45 @@
+/* Body */
+body    {
+    width: 800px;
+    padding: 50px 300px;
+}
+
+/* Header */
+header  {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
+.logo {
+    font-size: 25px;;
+}
+.links    {
+    font-size: 15px;
+}
+
+/* Posts */
+.postRow    {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 600px;
+    margin: 20px auto;
+}
+
+.box    {
+    text-align: center;
+    font-size: 10px;
+    margin: 3px;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+/* Footer */
+footer  {
+    background-color: #1F2937;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
